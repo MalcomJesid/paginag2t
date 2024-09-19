@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+
+    background-image: linear-gradient(
+        rgba(0, 121, 31, 0), 
+        rgba(0, 121, 31, 0)),
+        url(imagen_universidad/02919d0d440542ebaa456ab0181268c3.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+        color: bisque;
+        padding: 0 20px;
+        text-align: center;
+}
+
+/* Estilo para el menú */
+.Menu {
+  position: absolute; /* Posicionamos el menú de manera absoluta en la página */
+  top: 20px; /* Separación desde la parte superior */
+  right: 20px; /* Separación desde la parte derecha */
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espacio entre logo y el menú */
+  z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+.logo-img {
+  width: 100px; /* Ajusta el tamaño del logo según lo necesario */
+  height: auto;
+  margin-right: 550px; /* Espacio entre el logo y el texto (si lo hay) */
+}
+
+.logo-img2 {
+  width: 100px;
+  height: auto;
+  max-width: 150px;
+}
+
+.menu-icono {
+  width: 20px;
+  cursor: pointer;
+}
+
+.navdar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navdar a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navdar a:hover {
+  color: lightcoral;
+}
+
+.header-contenid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 70vh; /* Para que ocupe al menos el 70% de la pantalla */
+  padding-top: 100px; /* Añadimos espacio debajo del menú */
+}
+
+.header-contenid h1 {
+  color: bisque;
+  font-size: 75px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.header-contenid p {
+  color: #0e0d0d;
+  font-size: 16px;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.boton {
+  background-color: bisque;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: lightcoral;
+}
+
+
+
+.general{
+   display: flex;
+}
+
+.general1-1{
+    width: 50%;
+    padding: 100px 250px 100px;
+    background-color: #D5E4CF;
+}
+
+.general1-2{
+ background-image: url(imagen_universidad/jorge-gardner-5DqvsOPKdlk-unsplash.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 50%;
+}
+
+.general1-3{
+  background-image: url(imagen_universidad/whatsapp_image_2024-01-22_at_9.59.01_am.jpeg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 50%;
+
+}
+.general1-4{
+    background-image: url(imagen_universidad/eful.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 65%;
+  
+  }
+
+  h2 {
+    font-size: 55px;
+    line-height: 65px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  p{
+    font-size: 25px;
+    margin: 25px 0 45px 0;
+  }
+
+ ul{
+    font-size: 25px;
+    margin: 25px 0 45px 0;
+ }
+
+.stats{
+  background-image: linear-gradient(
+    rgba(5, 36, 14, 0.7), 
+    rgba(5, 36, 14, 0.7)),
+    url(imagen_universidad/f581b90c09c5a3612483ddd867fb0741.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.stat {
+  background-color: #cce6cc; 
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+}
+
+.header h2 {
+  text-align: center;
+  margin-bottom: 20px; 
+  font-size: 2.5rem; 
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #004d00; 
+  margin: 0;
+}
+
+.stat p {
+  margin: 10px 0 0;
+}
+
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-item {
+  background-color: #004d00; 
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.contact-item p, .contact-item a {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .Menu {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navdar {
+      width: 100%;
+  }
+
+  .navdar ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .navdar li {
+      text-align: center;
+  }
+
+  .header-contenid {
+      padding: 20px;
+  }
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #a3c5be;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #288836;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
